@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>หน้าส่วนตัวของฉัน</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            padding: 50px 0;
+            background-color: #1a1a1a;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+        }
+        h2 {
+            border-bottom: 2px solid #fff;
+            padding-bottom: 10px;
+        }
+        a {
+            color: #ffcc00;
+            text-decoration: none;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1a1a1a;
+        }
+        .social-links a {
+            margin: 0 10px;
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>ชื่อของคุณ</h1>
+        <p>ประวัติส่วนตัว: ใส่ข้อมูลประวัติของคุณที่นี่</p>
+    </header>
+
+    <section>
+        <h2>ประสบการณ์การทำงาน</h2>
+        <p>รายละเอียดประสบการณ์การทำงานของคุณ</p>
+    </section>
+
+    <section>
+        <h2>งานอดิเรก</h2>
+        <p>รายละเอียดเกี่ยวกับงานอดิเรกหรือสิ่งที่คุณสนใจ</p>
+    </section>
+
+    <footer>
+        <p>ติดต่อฉันได้ที่:</p>
+        <div class="social-links">
+            <a href="https://www.facebook.com">Facebook</a> |
+            <a href="https://www.twitter.com">Twitter</a> |
+            <a href="mailto:your-email@example.com">Email</a>
+        </div>
+    </footer>
+
+</body>
+</html>
